@@ -1,0 +1,64 @@
+/**FORECAST TABLE**/
+.day-ranges-table-container {
+	margin-top: 1rem;
+}
+
+.day-ranges-table-container,
+table {
+	width: 100%;
+	overflow-x: auto;
+}
+
+table {
+	padding: 1rem;
+	border-collapse: collapse;
+}
+
+table thead th,
+table tbody th,
+table tbody td {
+	border: 0.15rem solid var(--light);
+}
+
+table thead th:first-child {
+	border: none;
+}
+
+table thead th {
+	border-top: none;
+	text-align: center;
+	font-weight: 400;
+	color: var(--accent);
+}
+
+table thead th:last-child,
+table tbody td:last-child {
+	border-right: none;
+}
+
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+table tbody th {
+	border-left: none;
+}
+
+table tbody th,
+table thead th {
+	padding: 0.5rem 1rem;
+}
+
+table tbody th,
+table thead th:first-of-type {
+	font-size: 11px;
+	color: var(--medium);
+	text-align: start;
+	font-weight: 400;
+}
+
+table tbody td {
+	color: var(--dark);
+	text-align: center;
+}

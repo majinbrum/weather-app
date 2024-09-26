@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- GOOGLE FONT -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="nav-container">
+			<nav>
+				<div class="logo-div">
+					<img class="logo" src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="Open Weather logo" width="431" height="184" />
+				</div>
+				<div class="search-div">
+					<div class="search-input-container">
+						<input class="search-city-input" type="text" name="search-city-input" placeholder="Cerca la tua città" />
+						<!-- <ul class="search-dropdown-menu"></ul> -->
+					</div>
+					<input class="search-city" type="submit" name="search-city" value="Cerca" />
+				</div>
+			</nav>
+		</div>
+
+		<main>
+			<header></header>
+		</main>
+
+		<section class="day-forecast-section"></section>
+		<script type="module" src="./script.js"></script>
+	</body>
+</html>

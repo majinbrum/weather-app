@@ -1,0 +1,74 @@
+/**FORECAST SECTION**/
+.day-forecast-section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.forecast-ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.forecast-day-ul {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+.forecast-day-ul:hover {
+	cursor: pointer;
+	background-color: var(--light);
+}
+
+.forecast-day-info-ul {
+	list-style: none;
+
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+.forecast-day-info-ul .day-date {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--accent);
+}
+
+.forecast-day-info-ul .sunrise-li,
+.forecast-day-info-ul .sunset-li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.details-btn {
+	margin-left: auto;
+	background-color: var(--medium);
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: 3px solid var(--dark);
+	border-radius: 1rem;
+	letter-spacing: 0.1rem;
+	cursor: pointer;
+}
+
+.details-btn:hover {
+	font-weight: 500;
+	background-color: var(--dark);
+}
+
+.details-btn.open {
+	border: 3px solid var(--accent);
+	background-color: var(--accent);
+	color: #fff;
+}
+
+.details-btn.open:hover {
+	border: 3px solid var(--accent);
+	background-color: #fff;
+	color: var(--accent);
+}

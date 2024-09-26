@@ -1,0 +1,27 @@
+/**MEDIA**/
+@media (min-width: 1000px) {
+	header {
+		flex-direction: row;
+		row-gap: 0;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+
+	nav,
+	main,
+	header,
+	.day-forecast-section {
+		width: 100vw;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	main,
+	.day-forecast-section {
+		margin: 2rem auto;
+	}
+
+	main .day-ranges-table-container {
+		margin-top: 0;
+	}
+}

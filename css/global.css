@@ -1,0 +1,62 @@
+:root {
+	--dark: #48484a;
+	--medium: #8a8a8a;
+	--light: hsla(0, 0%, 94.9%, 0.5);
+	--accent: #e96e50;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: "Space Grotesk", sans-serif;
+	font-optical-sizing: auto;
+	/* Weight: 300 – 700 */
+}
+
+/**TYPO**/
+h1,
+h2,
+h3,
+p {
+	color: var(--dark);
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 600;
+
+	color: var(--accent);
+}
+
+p,
+li {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+li {
+	color: var(--dark);
+}
+
+/**SECTIONS**/
+main,
+.day-forecast-section {
+	margin: 1rem;
+}
